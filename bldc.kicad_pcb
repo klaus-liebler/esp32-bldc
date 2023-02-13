@@ -309,7 +309,7 @@
     (property "Sheetname" "")
     (path "/42725abf-1251-40c3-8b36-4cf3f2b584b7")
     (attr smd)
-    (fp_text reference "C16" (at 0 -1.85 -90) (layer "F.SilkS")
+    (fp_text reference "C16" (at 0 -1.85 -90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 52b17ceb-8be9-4c57-baca-247ff68a71cc)
     )
@@ -959,7 +959,7 @@
     (property "Sheetname" "")
     (path "/b5cd3ac9-829b-4474-8a28-ad7df6aa39cb")
     (attr smd)
-    (fp_text reference "C31" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "C31" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07351477-b846-49f5-aaa2-dfa66365bfb1)
     )
@@ -1443,10 +1443,10 @@
       (net 27 "/SW") (pintype "passive") (tstamp b125f033-5d0a-4881-8a79-7a1a633af9c5))
     (pad "2" smd roundrect (at 3.025 0 270) (size 2.35 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 24 "+3V3") (pintype "passive") (tstamp 46d19410-8c21-4445-8e02-b172c336e510))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0630LR.wrl"
-      (offset (xyz 0 0 0))
+    (model "${CUSTOM_LIBS}/liebler_PASSIVES.pretty/L_ASPI-0630LR.STEP"
+      (offset (xyz 0 0 1.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3175,7 +3175,7 @@
     (property "Sheetname" "")
     (path "/3e666613-1fac-4c0b-97ac-0d6df51fe25a")
     (attr smd)
-    (fp_text reference "C39" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "C39" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 559b80ac-54a8-47e3-83bd-84064880623f)
     )
@@ -4867,7 +4867,7 @@
     (property "Sheetname" "")
     (path "/a7546cc6-460f-4953-ba39-4f35c7ccd5a2")
     (attr smd)
-    (fp_text reference "C45" (at 0 -1.85 90) (layer "F.SilkS")
+    (fp_text reference "C45" (at 0 -1.85 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a9ca27ab-39b2-4612-a77e-e4a83b624aef)
     )
@@ -5116,7 +5116,7 @@
     (property "Sheetname" "")
     (path "/af8cd3b0-6259-41c5-9cee-fa80c58aba3e")
     (attr smd)
-    (fp_text reference "C38" (at 0 -1.85 180) (layer "F.SilkS")
+    (fp_text reference "C38" (at 0 -1.85 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0a2300e-464c-405b-82a5-6ecd2544b663)
     )
