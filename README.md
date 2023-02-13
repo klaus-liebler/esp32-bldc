@@ -11,7 +11,7 @@
 * Thermal sensor
 * breakable connector area
 * optional MT6816 at the bottom PCB side
-* parts available at jlcpcb
+* parts available at jlcpcb, (5pcs = 113€)
 * various GPIO; especially for external magnetic sensor
 * desinged with [KiCad](https://www.kicad.org/) with [https://simplefoc.com/](https://simplefoc.com/) in mind
 * Four mounting holes
